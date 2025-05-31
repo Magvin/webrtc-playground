@@ -81,6 +81,7 @@ yarn format
 ## 🏗 Architecture
 
 ### Project Structure
+```typescript
 src/
 ├── components/ # React components
 │ ├── VideoCallInterface.tsx # Main call interface
@@ -100,16 +101,17 @@ src/
 │ └── call.ts # Call-related types
 ├── images/ # SVG icons and assets
 └── utils/ # Utilities and helpers
+```
 
 
 ### State Management Architecture
-
 WebRTCService
+```typescript
 ├── Connection Management (establish, monitor, retry)
 ├── Media Handling (getUserMedia, tracks, devices)
 ├── Mock Scenarios (basic, poor, drop, screen-share)
 └── Error Recovery (automatic retry with exponential backoff)
-
+```
 
 ## 🎮 Usage
 

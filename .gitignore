@@ -1,0 +1,11 @@
+/node_modules
+/dist
+/build
+/coverage
+/logs
+/temp
+/test-results
+/test-results.xml
+/test-results.xml.gz
+/test-results.xml.gz.part
+/test-results.xml.gz.part.1
